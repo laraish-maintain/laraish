@@ -64,7 +64,7 @@ I'd say almost no differences there, except some additional tweaking, which gets
 You can install Laraish by issuing the following command via [Composer](https://getcomposer.org/).
 
 ```shell script
-composer create-project --prefer-dist laraish/laraish <theme-name>
+composer create-project --prefer-dist laraish-maintain/laraish <theme-name>
 ```
 
 Note that **the MySQL server and the web server must be running before you can issue the `composer create-project` command** to install Laraish. Because after Composer finishes the installation, it's going to run an artisan command, which requires MySQL server and the web server that host the WordPress be running at the time you issuing the command.
